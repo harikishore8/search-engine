@@ -1,0 +1,83 @@
+.head{
+    background-color: black;
+    /* position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color:burlywood;
+*/}
+body{
+    background-color:black;
+}
+
+.my-div {
+    padding: 20px;
+    margin: 5px;
+    font-size: 20px;
+    width: 50%;
+    position: relative;
+    left: 350px;
+    font-family:cursive;
+    font-style: italic;
+    color: antiquewhite;
+    border-style:solid;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 5px 10px #FCFFE7;
+}
+.my-div:hover{
+    box-shadow: inset 900px 0 0 0 #ED8D8D;
+    color: white;
+    transform: scale(1.5);
+}
+
+.my-div > a {
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#inp{
+        padding: 11px;
+        width: 60%;
+        font-size: 18px;
+        border-width: 0px;
+        border-color: #CCCCCC;
+        background-color: #FFFFFF;
+        color: #000000;
+        border-style: solid;
+        border-radius: 50px;
+        box-shadow: 2px 0px 11px rgba(66,66,66,.57);
+        text-shadow: -50px 0px 0px rgba(66,66,66,.0);
+        position: relative;
+        bottom: 60px;
+        left: 130px;
+
+ 
+        
+}
+
+.clg-logo{
+    margin-top: 13px;
+    position: relative;
+    left: 100px;
+}
+
+.search-icon{
+    position: relative;
+    bottom: 46px;
+    left: 150px;
+    
+}
+
+hr{
+    border-style:dashed;
+    border-width: 2px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    width: 50%;
+    border-top-color: #FAF5E4;
+    
+}
