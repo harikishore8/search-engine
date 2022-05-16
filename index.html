@@ -1,27 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-
-    <form onsubmit="FindMe(event)" autocomplete="off" class="head">
-<!--         <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/m2bhrnetvz5qmurmvrpk" alt="logo" height="150" width="150" class="clg-logo"> -->
-        <input type="text" id="inp"/>
-        <input type="image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJo2gnQHQh6PJF65ds6by_4wyb8p4rnRmUaw&usqp=CAU" name="submit" width="40" height="40" alt="submit" class="search-icon"/>  
-    </form>
-    
-    <hr>
-
-    <div id="main"> 
-        <p></p>
-        
+    <div class="topnav">
+        <a class="active"><img
+                src="https://upload.wikimedia.org/wikipedia/en/7/77/Bannari_Amman_Institute_of_Technology_logo.png"
+                alt="logo" height="80" width="120" class="clg-logo"></a>
+        <a>
+            <div class="search-container">
+                <form onsubmit="FindMe(event)">
+                    <input type="text" placeholder="Search.." id="inp">
+                </form>
+            </div>
+            <a>
+                <span type="submit" class="material-symbols-outlined" id="search" onclick="FindMe(event)">search</span>
+            </a>
+        </a>
+        <a>
+            <span class="material-symbols-outlined" id="menu">menu</span>
+        </a>
+        <a>
+            <img src="https://www.datamation.com/wp-content/uploads/2021/08/cloud-6515064_1920-696x324.jpg" alt=""
+                style="border-radius: 100%;" height="43" width="45" class="cloud">
+        </a>
     </div>
 
-    <script src="./index.js"></script>
+    <div id = "main">
+        <p></p>
+    </div>
+    <script src="index.js"></script>
 </body>
+
 </html>
