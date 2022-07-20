@@ -78,11 +78,11 @@ font-family:Verdana, Geneva, Tahoma, sans-serif;
     position: relative;
     right: 12px;
 }
-
-.cloud {
-    top: 11px;
-    position: relative;
-    right: 12px;
+#btn {
+    display:block;
+    position:relative;
+    margin-right:11rem ;
+    margin-bottom: 2rem;
 }
 
 * {
